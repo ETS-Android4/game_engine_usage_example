@@ -7,3 +7,5 @@ git submodule update --init  // for download engine as a submodule
 App src in app/jni/src
 
 Assets are in app/src/main/assets
+
+You can change device architecture in file app/build.gradle
