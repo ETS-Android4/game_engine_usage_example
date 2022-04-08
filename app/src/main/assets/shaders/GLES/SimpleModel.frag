@@ -1,6 +1,6 @@
 #version 300 es
 
-precision highp float; // highp mediump lowp
+precision mediump float; // highp mediump lowp
 
 in vec2 textureCoords;
 

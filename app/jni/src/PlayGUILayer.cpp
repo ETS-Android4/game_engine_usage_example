@@ -17,7 +17,7 @@ namespace
                                            ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoBackground);
 
 
-        ImGui::Text("GUI DisplaySize = %.1f,  %.1f", Beryll::MainImGUI::getGUIWidth(), Beryll::MainImGUI::getGUIHeight());
+        ImGui::Text("GUI DisplaySize = %.1f,  %.1f", Beryll::MainImGUI::getInstance()->getGUIWidth(), Beryll::MainImGUI::getInstance()->getGUIHeight());
 
         ImGui::End();
     }

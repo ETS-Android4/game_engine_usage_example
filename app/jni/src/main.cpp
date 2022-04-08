@@ -11,9 +11,9 @@ int main(int argc, char* argv[])
     Beryll::GameLoop::setMaxFPS(10);
 
     // GUI elements properties
-    Beryll::MainImGUI::setButtonsFont("fonts/arial-italic.ttf", 5);
-    Beryll::MainImGUI::setCheckBoxesFont("fonts/creamy.ttf", 3);
-    Beryll::MainImGUI::setTextsFont("fonts/proggy.ttf", 2);
+    Beryll::MainImGUI::getInstance()->setButtonsFont("fonts/arial-italic.ttf", 5);
+    Beryll::MainImGUI::getInstance()->setCheckBoxesFont("fonts/creamy.ttf", 3);
+    Beryll::MainImGUI::getInstance()->setTextsFont("fonts/proggy.ttf", 2);
 
     // camera properties
     Beryll::Camera::setPerspectiveNearClipPlane(2.0f);
